@@ -13,7 +13,8 @@
     "strict": true,
     "resolveJsonModule": true,
     "outDir": "./dist",
-    "declaration": true
+    "declaration": true,
+    "skipLibCheck": true
   },
   "exclude": ["node_modules", "babel.config.js"],
   "include": ["src/**/*"],

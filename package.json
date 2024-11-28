@@ -29,7 +29,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "build": "tsc",
+    "build": "which tsc && tsc",
     "dev": "tsc --watch",
     "test:ts": "tsc --noEmit"
   },
@@ -50,7 +50,7 @@
     "eslint-plugin-simple-import-sort": "5.0.1",
     "eslint-plugin-sort-keys-fix": "1.1.0",
     "prettier": "1.19.1",
-    "typescript": "3.9.6"
+    "typescript": "5.7.2"
   },
   "repository": {
     "type": "git",
